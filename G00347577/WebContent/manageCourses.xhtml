@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+	
+<h:head>
+	<title>DCW Project 2018/19</title>
+</h:head>
+<h:body>
+	<h:link value="Test" outcome="list_courses"/>
+	<br/>
+	<h:link value="Manage Students" outcome="list_students"/>
+	
+  <h:form>
+  <p>Name:<h:inputText value = "#{name}"/></p>
+  <p>Surname:<h:inputText value = "#{surname}"/></p>
+  <p>Address:<h:inputTextarea value = "#{address}" /></p>
+  <p>Phone Number:<h:inputText value = "#{number}"/></p>
+  <p>Age:<h:inputText value = "#{age}"/></p>
+  <p>Sex:<h:selectOneRadio value = "#{sex}"/></p>
+  </h:form>
+  </h:body>
+</html>
